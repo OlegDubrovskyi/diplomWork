@@ -1,4 +1,4 @@
-.dashboard{
+.dashboard {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -13,12 +13,12 @@
   background-image: url(../img/bg.png);
   background-size: cover;
   padding-bottom: 30px;
-  padding-top: 30px;
-  .popup{
+  padding-top: 30px; }
+  .dashboard .popup {
     padding: 15px 15px 15px 15px;
-    border: 2px green; 
+    border: 2px green;
     background: green;
     width: 80%;
-    border-radius: 10px;
-  }
-}
+    border-radius: 10px; }
+
+/*# sourceMappingURL=style.css.map */
