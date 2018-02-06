@@ -1,10 +1,6 @@
 .dashboard {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
   align-items: center;
-  align-content: stretch;
   position: fixed;
   top: 0;
   right: 0;
@@ -15,10 +11,45 @@
   padding-bottom: 30px;
   padding-top: 30px; }
   .dashboard .popup {
-    padding: 15px 15px 15px 15px;
+    padding: 15px 80px 41px 80px;
     border: 2px green;
     background: green;
     width: 80%;
     border-radius: 10px; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dashboard .popup {
+        padding: 15px 0 41px 0px; } }
+  .dashboard .popup_issues {
+    margin-left: 40px; }
+    @media (min-width: 320px) and (max-width: 767px) {
+      .dashboard .popup_issues {
+        margin-left: 0px; } }
+  .dashboard .nav_sort {
+    display: flex;
+    justify-content: space-between;
+    border: 2px blue;
+    background: blue;
+    width: 200px;
+    border-radius: 8px;
+    padding: 5px 15px 5px 15px; }
+  .dashboard .todo_panel_tasks {
+    display: flex;
+    justify-content: space-between;
+    border: 2px blue;
+    background: blue;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+    margin-top: 5px; }
+    .dashboard .todo_panel_tasks .todo_panel_tasks__title {
+      width: 50%; }
+
+button {
+  display: block;
+  border: 2px red;
+  background: red;
+  width: 155px;
+  padding: 5px 0px 5px 0px;
+  margin-top: 7px;
+  border-radius: 4px; }
 
 /*# sourceMappingURL=style.css.map */
